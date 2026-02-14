@@ -59,12 +59,6 @@ header h1 {
     animation: fadeIn 2s ease forwards;
 }
 
-.subtle {
-    margin-top: 15px;
-    font-size: 1rem;
-    opacity: 0.75;
-    letter-spacing: 2px;
-}
 
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
@@ -230,5 +224,6 @@ footer {
         opacity: 0.8;
     }
 }
+
 
 
