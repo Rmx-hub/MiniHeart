@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>You Are My Safe Place</title>
+    </head>
+
+    <body>
+
+<div class="stars">
+
+<!-- 💜 Floating Hearts -->
+<div class="heart" style="left:10%;">💜</div>
+<div class="heart" style="left:40%; animation-delay:2s;">💜</div>
+<div class="heart" style="left:70%; animation-delay:4s;">💜</div>
+
+</div>
+
+<input type="checkbox" id="open">
+  <label for="open" class="envelope-screen">
+    <div class="envelope-box">
+        <div class="open-text">open</div>
+        <div class="flap"></div>
+    </div>
+  </label>
+
+<header>
+    <h1>💜 You are my safe place 💜</h1>
+    <p class="subtle">14.02.2026</p>
+</header>
+
+    <div class="letter">
+        💜 ขอบคุณสำหรับความรักและความเอาใจใส่ที่มอบให้กันมาตลอด 
+                  ขอบคุณที่คอยซัพพอร์ตเค้าเสมอ  
+        เวลาเหนื่อยเธอคือพื้นที่ปลอดภัยของเค้า อยู่ด้วยกันไปนานๆนะ Happy Valentine นะ รักนะคับ 💜
+    </div>
+
+<section>
+    <p class="quote">
+        💜 “Purple is not just a color. It’s a promise.” 💜
+    </p>
+</section>
+
+<footer>
+    💜 Made with sincerity 💜
+</footer>
+
+
+<script>
+/* สุ่มดาว */
+const stars = document.querySelector('.stars');
+for(let i=0;i<80;i++){
+  const star = document.createElement('span');
+  star.style.top = Math.random()*100+'%';
+  star.style.left = Math.random()*100+'%';
+  star.style.animationDelay = Math.random()*2+'s';
+  stars.appendChild(star);
+}
+</script>
+
+    </body>
+</html>
