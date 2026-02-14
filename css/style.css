@@ -59,6 +59,22 @@ header h1 {
     animation: fadeIn 2s ease forwards;
 }
 
+@media (max-width: 768px) {
+    header h1 {
+        padding: 0 20px;
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+}
+
+@media (max-width: 768px) {
+    .subtle {
+        position: static;
+        display: block;
+        margin-top: 10px;
+        opacity: 0.8;
+    }
+}
 
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
@@ -208,22 +224,6 @@ footer {
     opacity: 1;
 }
 
-@media (max-width: 768px) {
-    header h1 {
-        padding: 0 20px;
-        font-size: 2.2rem;
-        line-height: 1.3;
-    }
-}
-
-@media (max-width: 768px) {
-    .subtle {
-        position: static;
-        display: block;
-        margin-top: 10px;
-        opacity: 0.8;
-    }
-}
 
 
 
